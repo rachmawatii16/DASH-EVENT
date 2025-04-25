@@ -1,0 +1,69 @@
+.navbar-nav.ms-auto {
+    margin-left: auto !important;
+}
+
+.card {
+    min-height: 300px;
+}
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.list-group-item {
+    background-color: transparent;
+    border: none;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.navbar {
+    background-color: #004080;
+}
+
+.navbar .nav-link {
+    color: white !important;
+}
+
+.navbar .navbar-brand img {
+    height: 40px;
+}
+
+.navbar-nav .nav-link {
+    position: relative;
+    color: white !important;
+    transition: color 0.3s;
+}
+
+.card-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.card-text {
+    font-size: 1rem;
+}
+
+.btn-primary {
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+h1 {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+form.d-flex {
+    margin-bottom: 20px;
+}
+
+form.d-flex input.form-control {
+    flex-grow: 1;
+    margin-right: 10px;
+}
+
+form.d-flex button.btn {
+    margin-left: 10px;
+}
